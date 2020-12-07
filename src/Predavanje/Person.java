@@ -39,7 +39,7 @@ public class Person {
     }
         //
     /*public Person (int age){
-        this.age = age; //this moze jer je dinamicko. da je staticko moglo bi Person.age..
+        this.age = age; //this moze jer je age dinamicko. da je staticko moglo bi Person.age..
     }*/
 
     public Person (int age){
