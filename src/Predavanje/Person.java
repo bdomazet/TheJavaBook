@@ -39,8 +39,9 @@ public class Person {
     }
         //
     /*public Person (int age){
-        this.age = age; //this moze jer je age dinamicko. da je staticko moglo bi Person.age..
-    }*/
+     *   this.age = age; //this moze jer je age dinamicko. da je staticko moglo bi Person.age..
+    *}
+    */
 
     public Person (int age){
         this("", "", age); //pozivamo susjedni konstruktor
@@ -61,7 +62,7 @@ public class Person {
                 //naziv funkcije je glagol
     public void speak(){
         String fullName = name + " " + surname;
-        System.out.println(fullName + " zna kako da mnogo prica");;
+        System.out.println(fullName + " zna kako da mnogo prica");
     }
 
     public void speak(String nacinGovora){
