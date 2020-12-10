@@ -10,6 +10,8 @@ public class Person {
 
     private Gender gender; // relacija kompozicije
 
+    private Animal animal;
+
     public Person(){
 
     }
@@ -30,13 +32,27 @@ public class Person {
         this.surname = surname;
     }
 
+
+    public int getAge() {
+        return age;
+    }
+
+
     public void setAge(int age) {
         if (age>0) {
             this.age = age;
         }
     }
 
-    public int getAge() {
-        return age;
+
+
+    public void setAnimal(Animal animal) {
+        this.animal = animal;
     }
+
+    public Animal getAnimal() {
+        return animal;
+    }
+
+
 }
