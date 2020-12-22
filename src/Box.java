@@ -13,21 +13,29 @@ class Box {
     */
     //method that return the value
 
+    Box(double width, double hight, double depth){
+        System.out.println("Creating Box");
+        this.width = width;
+        this.hight = hight;
+        this.depth = depth;
+    }
+
     double volume(){
         return width * hight * depth;
     }
-
+    /*
     void setDim (double w, double h, double d){
         width = w;
         hight = h;
         depth = d;
     }
-
+    */
+    /*
     void meth(){
         System.out.print("Visina puta duzina: ");
         System.out.println(width * hight);
         System.out.println("Sad printam tacke");
         System.out.println(". . . . . . . . .");
-
-    }
+    */
 }
+

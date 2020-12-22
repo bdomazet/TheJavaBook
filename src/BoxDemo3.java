@@ -1,5 +1,6 @@
 public class BoxDemo3 {
     public static void main(String[] args) {
+        /*
         Box myBox1 = new Box();
         Box myBox2 = new Box();
 
@@ -17,7 +18,7 @@ public class BoxDemo3 {
         myBox2.volume();
 
         myBox1.meth();
-
+*/
 
     }
 }

@@ -1,5 +1,6 @@
 public class BoxDemo2 {
     public static void main(String[] args) {
+        /*
         Box myBox1 = new Box();
         Box myBox2 = new Box();
         double vol1;
@@ -20,5 +21,6 @@ public class BoxDemo2 {
         vol1 = myBox2.depth * myBox2.hight * myBox2.width;
 
         System.out.println("Volume is: " + vol1);
+        */
     }
 }

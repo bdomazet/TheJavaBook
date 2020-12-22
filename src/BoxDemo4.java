@@ -1,5 +1,6 @@
 public class BoxDemo4 {
     public static void main(String[] args) {
+        /*
         Box myBox1 = new Box();
         Box myBox2 = new Box();
         double volume;
@@ -26,6 +27,8 @@ public class BoxDemo4 {
         System.out.println("Or");
 
         System.out.println("Volume is: " + myBox2.volume());
+
+         */
 
     }
 }
