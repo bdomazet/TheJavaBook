@@ -1,6 +1,7 @@
 package Predavanje.neki;
 
 import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +21,8 @@ public class PersonDAO {
                     int id = resultSet.getInt("id");
                     String name = resultSet.getString(2);
                     String surname = resultSet.getString("surname");
-                    Date birthday = resultSet.getDate(4);
+                    Date birth = resultSet.getDate(4);
+                    LocalDate birthday = birth.toLocalDate();
                     Person person = new Person(id, name, surname, birthday);
                     personList.add(person);
                 }

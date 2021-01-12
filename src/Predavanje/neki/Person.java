@@ -1,14 +1,15 @@
 package Predavanje.neki;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Person {
     private int id;
     private String name;
     private String surname;
-    private Date birthday;
+    private LocalDate birthday;
 
-    public Person(int id, String name, String surname, Date birthday) {
+    public Person(int id, String name, String surname, LocalDate birthday) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -27,7 +28,7 @@ public class Person {
         return surname;
     }
 
-    public Date getBirthday() {
+    public LocalDate getBirthday() {
         return birthday;
     }
 
